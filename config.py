@@ -27,7 +27,7 @@ class Config(object):
     TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "1BVtsOIIBu7iRsvjngtgRikrnHa244W5z9Xaztu1SZvxhRdQA98PUNs_FCJPkr42oMSxaM6l2JHH3FoW41GhipZ5aTbE_QV8vsINahz6AuykC9RTZYX1UG1pYlr7ISNwRvoBOiRCxikpp6mH7Q9-woU8PBhrEKmb7ntWTw26rpWuUa5aUXTrtIO_CxcjW5DHo-TPaAkI3I0W8vYf8r6ZbP7X3YRAtWR67xY-MI1nc1pk5ErAd0PwpUAFPAW1BQgtbkJDWsfXp60Jh2MsyKPCVCC_L_cjpLMJxB4u9TsB9xfTJovmOHptg13rDi9xT4ry48lPmM3xTOxwkrk8EhKVjCAaycrE5J3s=")
 
     # Database URI
-    DB_URI = os.environ.get("DATABASE_URL", "postgresql://slofficial:2004@sahan:5432/new")
+    DB_URI = os.environ.get("DATABASE_URL", "postgres://tyczdoom:pZZNu5UQ1FWYkPX4avF3CNlZHot4Xrjd@tiny.db.elephantsql.com/tyczdoom")
 
 
 def LOGGER(name: str) -> logging.Logger:
