@@ -24,7 +24,7 @@ class Config(object):
     AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "1347615107").split())
 
     # Generate a user session string
-    TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "1BVtsOIIBu7iRsvjngtgRikrnHa244W5z9Xaztu1SZvxhRdQA98PUNs_FCJPkr42oMSxaM6l2JHH3FoW41GhipZ5aTbE_QV8vsINahz6AuykC9RTZYX1UG1pYlr7ISNwRvoBOiRCxikpp6mH7Q9-woU8PBhrEKmb7ntWTw26rpWuUa5aUXTrtIO_CxcjW5DHo-TPaAkI3I0W8vYf8r6ZbP7X3YRAtWR67xY-MI1nc1pk5ErAd0PwpUAFPAW1BQgtbkJDWsfXp60Jh2MsyKPCVCC_L_cjpLMJxB4u9TsB9xfTJovmOHptg13rDi9xT4ry48lPmM3xTOxwkrk8EhKVjCAaycrE5J3s=")
+    TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "BQC7BHar9SqWx4xv2A1k1ifc0eWN0Xe8zin6TuEwyy5rii4b3uJVYOXYhOmM5z3jSWWyG-qMDxmBpIrDa1oK1C3ufAsYWyAjgB9NhDs-Jmqlq88uXNB03tA3F_ccvfA3P7slhpUi-yrVQvIXUJhC6ryqcHL-fSaimLjg6j5PO-RPLm1LuIZB1Vv33m9dUO2b_XR2NorcCtx7nspxJbWlaKIEoYtoLHcLJjWE5qvNveacOPPFCvlfCv3gg8x-Q12VswS2sXwA2CbJfAT8fB_j_Lf8RnM4HJLyjW8bvVEwnF4Q9eOmIibI7sdyFDcdZnwbYXK31AivUWJabn3259EmaACpUFL5gwA")
 
     # Database URI
     DB_URI = os.environ.get("DATABASE_URL", "postgres://tyczdoom:pZZNu5UQ1FWYkPX4avF3CNlZHot4Xrjd@tiny.db.elephantsql.com/tyczdoom")
